@@ -4,16 +4,20 @@
 }
 
 .fundo {
-    background-image: url("https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=913&q=80");
+    background-image: linear-gradient(#22c1c3, #fdbb2d);
     height: 100vh;
     color: white;
-    font-family: arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    padding-top: 35px;
     text-align: center;
+    font-size: 10px;
 }
 
 .calculadora {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
     top: 50%;
     left: 50%;
     margin-right: -50%;
